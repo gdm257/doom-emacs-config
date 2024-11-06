@@ -76,3 +76,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; configure which-key
+(setq which-key-idle-delay 0.12)
