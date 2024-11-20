@@ -79,3 +79,6 @@
 
 ;; configure which-key
 (setq which-key-idle-delay 0.12)
+
+;; LSP
+(use-package! lsp-tailwindcss :after lsp-mode)
