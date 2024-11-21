@@ -49,4 +49,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
-(package! lsp-tailwindcss :recipe (:host github :repo "merrickluo/lsp-tailwindcss"))
+(load! "modules/tools/tree-sitter/packages.el")
+(load! "modules/lang/tailwindcss/packages.el")
+(load! "modules/lang/astro/packages.el")

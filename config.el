@@ -77,8 +77,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; configure which-key
-(setq which-key-idle-delay 0.12)
-
-;; LSP
-(use-package! lsp-tailwindcss :after lsp-mode)
+(load! "modules/ui/which-key/config.el")
+(load! "modules/tools/tree-sitter/config.el")
+(load! "modules/lang/tailwindcss/config.el")
+(load! "modules/lang/astro/config.el")
