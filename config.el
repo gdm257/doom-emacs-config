@@ -78,6 +78,7 @@
 ;; they are implemented.
 
 (load! "modules/ui/which-key/config.el")
+(load! "modules/editor/snippets/config.el")
 (load! "modules/tools/tree-sitter/config.el")
 (load! "modules/tools/codeium/config.el")
 (load! "modules/tools/devdocs/config.el")
