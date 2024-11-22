@@ -7,6 +7,7 @@
         (tsx "https://github.com/tree-sitter/tree-sitter-typescript" "master" "tsx/src")))
 
 (use-package! astro-ts-mode
+  :defer t
   :after treesit-auto
   :init
   (when (modulep! +lsp)
@@ -25,6 +26,7 @@
   :modes '(astro-ts-mode))
 
 (use-package! lsp-tailwindcss
+  :defer t
   :when (modulep! +lsp)
   :init
   (setq! lsp-tailwindcss-add-on-mode t)
