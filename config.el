@@ -80,5 +80,6 @@
 (load! "modules/ui/which-key/config.el")
 (load! "modules/tools/tree-sitter/config.el")
 (load! "modules/tools/codeium/config.el")
+(load! "modules/tools/devdocs/config.el")
 (load! "modules/lang/tailwindcss/config.el")
 (load! "modules/lang/astro/config.el")
