@@ -50,5 +50,6 @@
 ;; (unpin! t)
 
 (load! "modules/tools/tree-sitter/packages.el")
+(load! "modules/tools/codeium/packages.el")
 (load! "modules/lang/tailwindcss/packages.el")
 (load! "modules/lang/astro/packages.el")
