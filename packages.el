@@ -49,7 +49,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
-(load! "modules/editor/snippets/packages.el")
 (load! "modules/tools/tree-sitter/packages.el")
 (load! "modules/tools/codeium/packages.el")
 (load! "modules/tools/devdocs/packages.el")
